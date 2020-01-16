@@ -1,6 +1,6 @@
 name = "OpenMPI_jll"
 uuid = "fe0851c0-eecd-5654-98d4-656369965a5c"
-version = "4.0.2+1"
+version = "4.0.2+2"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
