@@ -1,97 +1,117 @@
 [[OpenMPI]]
-arch = "i686"
-git-tree-sha1 = "d3c05e691c8f3a0250a165a0f1bb4617a78cfe91"
-libc = "glibc"
-os = "linux"
-
-    [[OpenMPI.download]]
-    sha256 = "1933a3206e3d36ea0334b72032785fa9e465d1df5a1bfb76e7285d23fed644fb"
-    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.0.2+2/OpenMPI.v4.0.2.i686-linux-gnu.tar.gz"
-[[OpenMPI]]
-arch = "i686"
-git-tree-sha1 = "6d95bf20ddcc8c7085da9051a17ed8eb9dbdb7c6"
-libc = "musl"
-os = "linux"
-
-    [[OpenMPI.download]]
-    sha256 = "ded5b2e4d83668ec900e23fd84d72be9330d672b6974cc5dfc3a337f62140fa2"
-    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.0.2+2/OpenMPI.v4.0.2.i686-linux-musl.tar.gz"
-[[OpenMPI]]
-arch = "x86_64"
-git-tree-sha1 = "1020cc8fcf573b7f72af6cf9a982f7247869246e"
+arch = "aarch64"
+git-tree-sha1 = "19ccd86b0d84fb55482255af82ff373d3b3129f3"
 os = "macos"
 
     [[OpenMPI.download]]
-    sha256 = "c755eae90256ceda5b3986e8940b28e045e026d56dec72699ddd2a40571f5384"
-    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.0.2+2/OpenMPI.v4.0.2.x86_64-apple-darwin14.tar.gz"
+    sha256 = "fc909654a69ce9ee6eddef11934414fad3beac1c34257f2f408809d9942b0068"
+    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.1.1+0/OpenMPI.v4.1.1.aarch64-apple-darwin.tar.gz"
 [[OpenMPI]]
-arch = "powerpc64le"
-git-tree-sha1 = "14758234046afc74508a1c95e878a85cea3f74c7"
+arch = "aarch64"
+git-tree-sha1 = "92c55e1a5dd4983f0be3ca7a23d8c86d7a417504"
 libc = "glibc"
 os = "linux"
 
     [[OpenMPI.download]]
-    sha256 = "b5ced3cb8ddb45ecb802d6d2d1b256120a7960b69c96579d13e5caf7d211471f"
-    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.0.2+2/OpenMPI.v4.0.2.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "1f07bdaf6432dc6f5f52c9286964148f24c793076e2fd2d234a5ea55702e0b1c"
+    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.1.1+0/OpenMPI.v4.1.1.aarch64-linux-gnu.tar.gz"
 [[OpenMPI]]
 arch = "aarch64"
-git-tree-sha1 = "de2c6377458bfc439877c46cb77824f7a75d4346"
-libc = "glibc"
-os = "linux"
-
-    [[OpenMPI.download]]
-    sha256 = "3ab8fefb4199f7f46c5638d96f60b6c38849fc541f714786dd502e956cc00074"
-    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.0.2+2/OpenMPI.v4.0.2.aarch64-linux-gnu.tar.gz"
-[[OpenMPI]]
-arch = "x86_64"
-git-tree-sha1 = "27f6ba4cb903b84ca08da871bfd3c86d2e39a5c4"
+git-tree-sha1 = "0474d3bbc4ec4a03ce516986965e2c1e89825a18"
 libc = "musl"
 os = "linux"
 
     [[OpenMPI.download]]
-    sha256 = "114117bb722c7fe5ff0948a660e303142c2737431047f5c9079101383a4a8de6"
-    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.0.2+2/OpenMPI.v4.0.2.x86_64-linux-musl.tar.gz"
+    sha256 = "eb87c5d3a2dcbf2df058d4d8537655eb6a8ca0a285c313933a9b44fddeb0a6bd"
+    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.1.1+0/OpenMPI.v4.1.1.aarch64-linux-musl.tar.gz"
 [[OpenMPI]]
-arch = "aarch64"
-git-tree-sha1 = "bca3149cfdef4fa844afb1c1c67a643bd36428fe"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "c47ba47a8c438822203604779b01f1697912b20e"
 libc = "musl"
 os = "linux"
 
     [[OpenMPI.download]]
-    sha256 = "b0d6a7d5b06d33ed539269b65925f1b9f9b3cc17490e52446664ca458bd59f9d"
-    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.0.2+2/OpenMPI.v4.0.2.aarch64-linux-musl.tar.gz"
+    sha256 = "646e5d66534df8551ddeb03e33d93ed3f2e99f6239df452908e2c3158db71ba3"
+    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.1.1+0/OpenMPI.v4.1.1.armv6l-linux-musleabihf.tar.gz"
 [[OpenMPI]]
 arch = "armv7l"
-git-tree-sha1 = "669b4232e665ac3ce081fddca0bf30f4c8bde40f"
+call_abi = "eabihf"
+git-tree-sha1 = "1fbfa974bc2fdcb2ad3221d16ca92ab23a7ec8cd"
+libc = "glibc"
+os = "linux"
+
+    [[OpenMPI.download]]
+    sha256 = "cb6622ab8793a914f80dcf7855447c086433fe8ed9e2b499b88c09984d3a9b69"
+    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.1.1+0/OpenMPI.v4.1.1.armv7l-linux-gnueabihf.tar.gz"
+[[OpenMPI]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "4a18c1f3435d908033583ac5c6b98a9d2b4d34c7"
 libc = "musl"
 os = "linux"
 
     [[OpenMPI.download]]
-    sha256 = "33c1f97310c41e3e4e620d4f0b687dcca5ba73cbdeb118a283b820f82ac98ddd"
-    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.0.2+2/OpenMPI.v4.0.2.arm-linux-musleabihf.tar.gz"
+    sha256 = "51526b21178d29daa48fefdcddae03b8cfb5b3489443926864f0960a6ba6267c"
+    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.1.1+0/OpenMPI.v4.1.1.armv7l-linux-musleabihf.tar.gz"
+[[OpenMPI]]
+arch = "i686"
+git-tree-sha1 = "b5e89e1f21410d668f9282ec7c54b8afb7ab920e"
+libc = "glibc"
+os = "linux"
+
+    [[OpenMPI.download]]
+    sha256 = "17bae0f75b43fb87b844a7975456bff90dc0019fe5dc55bb1b6f5909356d3809"
+    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.1.1+0/OpenMPI.v4.1.1.i686-linux-gnu.tar.gz"
+[[OpenMPI]]
+arch = "i686"
+git-tree-sha1 = "3075887c88efdf7584fe7235bc9e1e049ba993be"
+libc = "musl"
+os = "linux"
+
+    [[OpenMPI.download]]
+    sha256 = "a93bebc14009867f5b9ae6f17bb51f0364be5fc02374a7c9f3e2e86753659aa7"
+    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.1.1+0/OpenMPI.v4.1.1.i686-linux-musl.tar.gz"
+[[OpenMPI]]
+arch = "powerpc64le"
+git-tree-sha1 = "41bc7dff31ddaa967818ecf806be314c362f744d"
+libc = "glibc"
+os = "linux"
+
+    [[OpenMPI.download]]
+    sha256 = "d2f28629ac9dafc2d7802d689a3206355e176b92b38a862b271390cdd1a205d2"
+    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.1.1+0/OpenMPI.v4.1.1.powerpc64le-linux-gnu.tar.gz"
 [[OpenMPI]]
 arch = "x86_64"
-git-tree-sha1 = "74ec28f60413269e845bfb7e0f1e0aeb07295adb"
+git-tree-sha1 = "abc03a2c6f1b22cd9c851a9d1974e686a30efabc"
+os = "macos"
+
+    [[OpenMPI.download]]
+    sha256 = "29796884ec7eab868a793b7d616a00aa3839f4fd2899049471f498530ceac4a0"
+    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.1.1+0/OpenMPI.v4.1.1.x86_64-apple-darwin.tar.gz"
+[[OpenMPI]]
+arch = "x86_64"
+git-tree-sha1 = "15c6c75a09087fd14f8ef0278da263a51ac99a39"
+libc = "glibc"
+os = "linux"
+
+    [[OpenMPI.download]]
+    sha256 = "7b483f5f7ec7ff8d671cf4fbf3e6707150c5e6b773b82453b9c02b9bbf99d293"
+    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.1.1+0/OpenMPI.v4.1.1.x86_64-linux-gnu.tar.gz"
+[[OpenMPI]]
+arch = "x86_64"
+git-tree-sha1 = "d67439402937652ceccfb4913bc5fb733dbe6b20"
+libc = "musl"
+os = "linux"
+
+    [[OpenMPI.download]]
+    sha256 = "88d12d4201dfd78077a1a89bb7c2efa236f581e8a3c906237eab81405d507195"
+    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.1.1+0/OpenMPI.v4.1.1.x86_64-linux-musl.tar.gz"
+[[OpenMPI]]
+arch = "x86_64"
+git-tree-sha1 = "6b36380e9918ce117ddad23ef452bf2a121a8db4"
 os = "freebsd"
 
     [[OpenMPI.download]]
-    sha256 = "2bd6bd60c4a8d96bfe56cb2f8635216b64f420146af9d0fc40072a140bb63e15"
-    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.0.2+2/OpenMPI.v4.0.2.x86_64-unknown-freebsd11.1.tar.gz"
-[[OpenMPI]]
-arch = "armv7l"
-git-tree-sha1 = "1c602cf9fd4b7c5453b3d9476846d080b9d7f9f7"
-libc = "glibc"
-os = "linux"
-
-    [[OpenMPI.download]]
-    sha256 = "9eeab98c0230ad5039e2d62c78c3f4015a09a0324f1bc65f8c413acef5e76df8"
-    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.0.2+2/OpenMPI.v4.0.2.arm-linux-gnueabihf.tar.gz"
-[[OpenMPI]]
-arch = "x86_64"
-git-tree-sha1 = "ad4b9988b072319d612a814b5feff044aed80a5c"
-libc = "glibc"
-os = "linux"
-
-    [[OpenMPI.download]]
-    sha256 = "11845471df063b68acfc26e24e99a165e4b3053d79fc8f74d466b527adb316ad"
-    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.0.2+2/OpenMPI.v4.0.2.x86_64-linux-gnu.tar.gz"
+    sha256 = "c6c2a9a5015ff7027e5d714af3095279496efb581d8c162aa5b6e74c5c8b31a0"
+    url = "https://github.com/JuliaBinaryWrappers/OpenMPI_jll.jl/releases/download/OpenMPI-v4.1.1+0/OpenMPI.v4.1.1.x86_64-unknown-freebsd.tar.gz"
