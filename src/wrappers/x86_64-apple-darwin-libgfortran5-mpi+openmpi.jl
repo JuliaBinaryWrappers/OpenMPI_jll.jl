@@ -2,7 +2,6 @@
 export libmpi, mpiexec
 
 using CompilerSupportLibraries_jll
-using MPIPreferences
 JLLWrappers.@generate_wrapper_header("OpenMPI")
 JLLWrappers.@declare_library_product(libmpi, "@rpath/libmpi.40.dylib")
 JLLWrappers.@declare_executable_product(mpiexec)
