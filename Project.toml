@@ -1,6 +1,6 @@
 name = "OpenMPI_jll"
 uuid = "fe0851c0-eecd-5654-98d4-656369965a5c"
-version = "5.0.4+0"
+version = "5.0.5+0"
 
 [deps]
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
