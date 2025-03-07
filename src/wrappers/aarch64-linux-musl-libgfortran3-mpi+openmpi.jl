@@ -2,11 +2,13 @@
 export libmpi, mpiexec
 
 using CompilerSupportLibraries_jll
+using Hwloc_jll
+using Zlib_jll
 JLLWrappers.@generate_wrapper_header("OpenMPI")
 JLLWrappers.@declare_library_product(libmpi, "libmpi.so.40")
 JLLWrappers.@declare_executable_product(mpiexec)
 function __init__()
-    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, Hwloc_jll, Zlib_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libmpi,
         "lib/libmpi.so",
