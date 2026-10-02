@@ -42,6 +42,6 @@ function __init__()
     )
 
     JLLWrappers.@generate_init_footer()
-    ENV["OPAL_PREFIX"] = artifact_dir
+    get!(ENV, "OPAL_PREFIX", artifact_dir)
 
 end  # __init__()
